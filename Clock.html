@@ -1,4 +1,19 @@
 <html>
+    <head>
+        <style>
+            /* 操作系统及浏览器未支持或用户未开启 Dark Mode */
+            body {
+                background-color: #FFFFFF;
+            }
+
+            @media (prefers-color-scheme: dark) {
+                /* 操作系统及浏览器支持且用户开启了 Dark Mode */
+                body {
+                    background-color: #191919;
+                }
+            }
+        </style>
+    </head>
     <body>
         <div style="display: flex; justify-content: center; align-items: center;">
             <div style="position: absolute;top:0;left:0;bottom:0;right:0;width:350px;height: 150px;margin:auto;">
