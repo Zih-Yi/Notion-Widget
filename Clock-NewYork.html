@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <style>
+            /* 操作系统及浏览器未支持或用户未开启 Dark Mode */
+            body {
+                background-color: #FFFFFF;
+            }
+
+            @media (prefers-color-scheme: dark) {
+                /* 操作系统及浏览器支持且用户开启了 Dark Mode */
+                body {
+                    background-color: #191919;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <div style="position: absolute;top:0;left:0;bottom:0;right:0;width:350px;height: 150px;margin:auto;">
+                <div class="cleanslate w24tz-current-time w24tz-large" style="display: inline-block !important; visibility: hidden !important; min-width:300px !important; min-height:145px !important;"><p><a href="//24timezones.com/State-of-New-York/time" style="text-decoration: none" class="clock24" id="tz24-1669810244-su27-eyJob3VydHlwZSI6IjEyIiwic2hvd2RhdGUiOiIxIiwic2hvd3NlY29uZHMiOiIwIiwiY29udGFpbmVyX2lkIjoiY2xvY2tfYmxvY2tfY2I2Mzg3NDg0NGVmYWZmIiwidHlwZSI6ImRiIiwibGFuZyI6ImVuIn0=" title="New York actual time" target="_blank">New York</a></p><div id="clock_block_cb63874844efaff"></div></div>
+                <script type="text/javascript" src="//w.24timezones.com/l.js" async></script>
+            </div>
+        </div>
+    </body>
+</html>
